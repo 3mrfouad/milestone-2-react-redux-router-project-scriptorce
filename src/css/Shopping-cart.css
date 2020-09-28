@@ -54,7 +54,7 @@ list-style-type: none;
   padding-top: 10px;
 }
 #bd-section h2 {
-  font-weight: bold;
+  font-weight: 900;
 }
 #cart-items,
 #pickup,
@@ -260,7 +260,7 @@ list-style-type: none;
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   #items-pickup {
     justify-content: center;
   }
