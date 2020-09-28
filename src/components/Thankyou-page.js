@@ -1,13 +1,18 @@
 import React from "react";
-import ThankYouImg from "../img/thankyou.jpg";
+import ThankYoImg from "./Thankyou-image";
 import "../css/Thankyou-page.css";
+/*=============================================
+=         Thank You page React Component        =
+=============================================*/
 
-function ThankYouPage() {
+const ThankYouPage = () => {
   return (
-    <div id="thankyou-img">
-      <img src={ThankYouImg} alt="Image for Thank You to the customer" />
-    </div>
+    <>
+      <ThankYoImg message="Thank you, your order is in process " />
+    </>
   );
-}
+};
+
+/*=====  End of Thank You React Component  ======*/
 
 export default ThankYouPage;

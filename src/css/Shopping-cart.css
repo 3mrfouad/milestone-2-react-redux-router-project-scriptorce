@@ -11,6 +11,9 @@
   border-radius: 15px;
   margin: 10px 0;
 }
+#cart-container ul li{
+list-style-type: none;
+}
 
 #cart-items {
   display: flex;
@@ -22,13 +25,13 @@
   padding-top: 5px;
   margin: 10px 0;
 }
+
 #shopping-cart > h1 {
   padding-top: 5px;
   margin: 10px 0;
   text-align: center;
   font-weight: 1000;
 }
-
 #pickup > h2 {
   padding-top: 5px;
   padding-bottom: 10px;
@@ -46,16 +49,13 @@
   margin-bottom: 10px;
   font-weight: 500;
 }
-
 #bd-section,
 #cc-section > h2 {
   padding-top: 10px;
 }
-
 #bd-section h2 {
   font-weight: 1000;
 }
-
 #cart-items,
 #pickup,
 #subtotal,
@@ -65,11 +65,9 @@
   margin-left: 15px;
   margin-right: 15px;
 }
-
 #bd-section {
   margin-top: 30px;
 }
-
 #cart-container img {
   width: 200px;
   height: 200px;
@@ -77,17 +75,16 @@
   align-items: center;
   text-align: center;
   border-radius: 15px;
-  background-color: #fff;
-  padding: 10px;
 }
+/* p { background-color: #fff;
+  padding: 10px;
+} */
 #cart-container {
   text-align: center;
 }
-
 .required-field {
-  color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 0, 0);
 }
-
 #shopping-required-note .required-field-note {
   color: #ff0000;
   font-size: 0.55rem;
@@ -119,7 +116,6 @@
   color: #4d626e;
   justify-content: center;
 }
-
 #text-container {
   flex-direction: row;
 }
@@ -129,11 +125,9 @@
   text-align: center;
   border: none;
 }
-
 #description {
   text-align: left;
 }
-
 .plus,
 .minus,
 .rmv-btn {
@@ -144,7 +138,6 @@
   justify-content: space-between;
   font-weight: 500;
 }
-
 .rmv-btn {
   border-radius: 10px;
   padding: 5%;
@@ -175,7 +168,6 @@
   background-color: #fff;
   justify-content: center;
 }
-
 #pickup {
   align-items: center;
   text-align: center;
@@ -185,7 +177,6 @@
   color: #4d626e;
   width: 100%;
 }
-
 #qty-status {
   align-items: center;
   text-align: center;
@@ -214,13 +205,11 @@
   font-size: 18px;
   font-weight: 500;
 }
-
 #btn-order .required-field note {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 #btn-order:hover {
   background-color: #90aab9;
   cursor: pointer;
@@ -229,13 +218,11 @@
   color: #fff;
   text-decoration: none;
 }
-
 #btn-order,
 #btn-back:hover {
   background-color: #4d626e;
   cursor: pointer;
 }
-
 #shopping-required-note > .required-field-note {
   display: block;
   padding-top: 35px;

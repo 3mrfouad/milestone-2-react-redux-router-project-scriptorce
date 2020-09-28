@@ -12,10 +12,8 @@ import {
 import { SiGooglepay } from "react-icons/si";
 import FormValidation from "../functions/Form-validation.js";
 import DatePicker from "react-datepicker";
-
 const CreditCardComponent = forwardRef((props, ref) => {
   const dispatch = useDispatch();
-
   /*Creating Local states  */
   const [userCreditNumber, setUserCreditNumber] = useState("");
   const [userExpiry, setUserExpiry] = useState("");
@@ -24,7 +22,6 @@ const CreditCardComponent = forwardRef((props, ref) => {
   const [startDate, setStartDate] = useState(new Date());
   /* 
    Creating a Copy with parameters assigned in the Creditcard reducer*/
-
   const CreditCardStateInfoCopy = {
     No: userCreditNumber,
     ExpDate: userExpiry,
@@ -40,7 +37,6 @@ const CreditCardComponent = forwardRef((props, ref) => {
     runCreditCardDispatch() {
       /* This function will run onsubmit from parent-Shopping Cart
        */
-
       if (
         FormValidation(
           userCreditNumber,
@@ -60,16 +56,14 @@ const CreditCardComponent = forwardRef((props, ref) => {
           "user-credit-cvc",
           "user-credit-cvc-error"
         )
-      )
+      ){
         dispatch(ChangeCreditInfo(CreditCardStateInfoCopy));
-      return true;
+      return true;}
     },
   }));
-
   return (
     <>
-      <form id="credit-card-form">
-        {/* <h4>Credit Card</h4> */}
+      <section id="credit-card-form">
         <div className="credit-card-form-section-container">
           <div className="cards-styling">
             <section id="cards-row-1" className="cards">
@@ -100,7 +94,7 @@ const CreditCardComponent = forwardRef((props, ref) => {
               <label className="credit-label" htmlFor="user-credit-number-id">
                 Number on Card<sup className="required-field">*</sup>
               </label>
-              <div class="credit-icon">
+              <div className="credit-icon">
                 <input
                   type="text"
                   id="user-credit-number-id"
@@ -183,10 +177,9 @@ const CreditCardComponent = forwardRef((props, ref) => {
                 Save payment information
               </label>
             </div>
-            {/* </section> */}
           </div>
         </div>
-      </form>
+      </section>
     </>
   );
 });

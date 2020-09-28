@@ -1,12 +1,10 @@
 @import url("./normalize.css");
-
 #creditcard-input-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   text-align: left;
 }
-
 #credit-number-container,
 #credit-exp-date-container,
 #credit-save-container,
@@ -14,46 +12,40 @@
   width: 100%;
   margin-top: 10px;
 }
-
 #checkboxes,
 #checkbox-label {
   display: inline-block;
 }
-
 #checkboxes {
   margin-right: 5px;
 }
 #credit-card-form {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin: 1rem 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #4d626e;
+  color: #4D626E;
   border-radius: 15px;
   padding-bottom: 10px;
-  border-right: 1px solid #4d626e;
+  border-right: 1px solid #4D626E;
   padding: 1.5rem 1.5rem;
-  border-left: 1px solid #4d626e;
+  border-left: 1px solid #4D626E;
   box-shadow: 1px 5px 5px 3px #888888;
 }
-
 .credit-card-form-section-container {
   display: flex;
   flex-direction: column;
 }
-
 .cards-styling {
   display: flex;
   flex-direction: column;
 }
-
 .cards {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-
 .credit-icon svg {
   width: 30px;
   height: 30px;
@@ -61,7 +53,6 @@
   margin: 0;
   transform: translateX(110px) translateY(-25px);
 }
-
 #user-credit-number-id {
   height: 35px;
   margin: 0;
@@ -75,7 +66,6 @@
   border-right: none;
   border-left: none;
 }
-
 #user-credit-expiry-id {
   width: 50%;
   height: 35px;
@@ -96,40 +86,34 @@
   width: 100px;
   height: 15px;
 }
-
 .credit-card-form-section-container select {
   height: 35px;
   width: min-content;
   border-radius: 15px;
   font-size: 0.85rem;
-  color: #4d626e;
+  color: #4D626E;
   border: none;
-  border-bottom: 1px solid #4d626e;
-  border-top: 1px solid #4d626e;
+  border-bottom: 1px solid #4D626E;
+  border-top: 1px solid #4D626E;
 }
-
 .credit-card-form-section-container input:focus {
-  background-color: #d6e4e9;
+  background-color: #D6E4E9;
 }
-
 .credit-card-form-section-container .required-field {
   color: rgba(255, 0, 0);
 }
-
 #credit-card-form input::placeholder {
-  color: #4d626e;
+  color: #4D626E;
   font-size: 0.65rem;
   font-style: italic;
   text-align: left;
 }
-
 #credit-card-form label {
   font-size: 1rem;
   font-weight: 500;
-  color: #4d626e;
+  color: #4D626E;
   margin-left: 12px;
 }
-
 #cc-exp-date-label,
 #cc-cvc-label {
   display: block;
@@ -140,7 +124,6 @@
 .credit-label {
   margin-bottom: 10px;
 }
-
 @media screen and (min-width: 600px) {
   .cards {
     justify-content: flex-end;
