@@ -140,13 +140,13 @@ const ShoppingNavigationComponent = () => {
 
         <input
           type="checkbox"
-          id="jewelry"
+          id="jewelery"
           className="browse-option"
           onChange={(e) => {
             BrowseOption(e.target);
           }}
         />
-        <label htmlFor="jewelry">Jewelry</label>
+        <label htmlFor="jewelery">Jewelery</label>
 
         <input
           type="checkbox"
