@@ -105,7 +105,6 @@ body {
   margin-left: 1rem;
   text-align: right;
 }
-
 @media screen and (min-width: 600px) {
   #loginForm {
     width: 60%;

@@ -42,7 +42,6 @@ body {
   text-align: center;
   font-size: 2rem;
 }
-
 .contactform-overlay input,
 .contactform-overlay textarea {
   /* Input field & common props with text area */
@@ -102,7 +101,7 @@ body {
 }
 .contactform-overlay .required-field {
   /* Sup text color */
-  color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 0, 0);
 }
 .contactform-overlay .note {
   /* Required field note at the bottom */

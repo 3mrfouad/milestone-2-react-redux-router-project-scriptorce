@@ -1,7 +1,4 @@
 @import url("./normalize.css");
-/* #volunteer-form * {
-  outline: 1px  solid red;
-} */
 #volunteer-form {
   background-color: #ffffff;
   margin: 2rem 0.5rem;
@@ -32,7 +29,6 @@
   display: flex;
   flex-direction: column;
 }
-
 #volunteer-form label {
   font-size: 1rem;
   font-weight: 500;
@@ -53,7 +49,6 @@
 #volunteer-form select {
   padding-top: 6px;
 }
-
 #emergency-info,
 #volunteer-info {
   padding: 0 15px;
@@ -81,10 +76,9 @@
   background-color: #90aab9;
 }
 .required-field {
-  color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 0, 0);
 }
 #volunteer-form .note {
-  /* Required field note at the bottom */
   color: #ff0000;
   font-size: 0.55rem;
   font-style: italic;
@@ -98,7 +92,6 @@
   margin: 0;
   padding: 0;
 }
-/* Tablet layout at min-width 600px */
 @media screen and (min-width: 600px) {
   #volunteer-form {
     max-width: 600px;

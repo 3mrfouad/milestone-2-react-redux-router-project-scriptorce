@@ -25,7 +25,7 @@ const NewsEventsPageComponent = () => {
         <section className="news-event-section">
           <h2>COVID 19 update</h2>
           <div className="img-news-para-one">
-            <img src={NewsImageOne} alt="covid 19 text image"></img>
+            <img src={NewsImageOne} alt="covid 19 logo"></img>
             <p>
               Despite the challenges of COVID-19, our organization has continued
               our work and service in the community. If you feel sick, then call
@@ -51,10 +51,7 @@ const NewsEventsPageComponent = () => {
 
           <h2>Received 50K Donation From Various organizations in Last Year</h2>
           <div className="img-news-para-three">
-            <img
-              src={NewsImageThree}
-              alt="Image shows some coins in hand"
-            ></img>
+            <img src={NewsImageThree} alt="Child with some coins in hand"></img>
             <p>
               Despite the challenges of COVID-19, our organization has continued
               our work and service in the community. If you feel sick, then call
@@ -110,7 +107,7 @@ const NewsEventsPageComponent = () => {
           <div className="img-event-para-two">
             <img
               src={EventImageTwo}
-              alt="Christmas image with different lights"
+              alt="Christmas event with different lights"
             ></img>
             <p>
               The Christmas Event is an annual event that is organized by and

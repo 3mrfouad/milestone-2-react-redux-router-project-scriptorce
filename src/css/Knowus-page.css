@@ -89,8 +89,6 @@
   margin-bottom: 15px;
   text-align: left;
 }
-
-/* Tablet layout at min-width 600px */
 @media screen and (min-width: 600px) {
   #about-us-heading-container,
   #vision-heading-container,
@@ -123,7 +121,6 @@
     line-height: 150%;
   }
 }
-
 @media screen and (min-width: 1000px) {
   #know-us-article {
     margin: 2.5% 20% 0 20%;
