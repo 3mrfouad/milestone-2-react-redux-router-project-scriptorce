@@ -173,8 +173,6 @@ const ShoppingCartComponent = () => {
               <p id="schedule">Schedule a Pickup Appointment&nbsp;</p>
               <sup className="required-field">*</sup>
             </div>
-            {/* <p> Subtotal</p>
-            <p> $ {subTotal.toFixed(2)} </p> */}
           </section>
           <div id="cc-section">
             <h2> Credit Card</h2>
