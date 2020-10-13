@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/TECHCareers-React-Redux-Milestone/static/css/main.04ec16dd.chunk.css",
+    "main.js": "/TECHCareers-React-Redux-Milestone/static/js/main.79f613d2.chunk.js",
+    "main.js.map": "/TECHCareers-React-Redux-Milestone/static/js/main.79f613d2.chunk.js.map",
+    "runtime-main.js": "/TECHCareers-React-Redux-Milestone/static/js/runtime-main.f2cf965b.js",
+    "runtime-main.js.map": "/TECHCareers-React-Redux-Milestone/static/js/runtime-main.f2cf965b.js.map",
+    "static/css/2.8d4cdce2.chunk.css": "/TECHCareers-React-Redux-Milestone/static/css/2.8d4cdce2.chunk.css",
+    "static/js/2.c223a886.chunk.js": "/TECHCareers-React-Redux-Milestone/static/js/2.c223a886.chunk.js",
+    "static/js/2.c223a886.chunk.js.map": "/TECHCareers-React-Redux-Milestone/static/js/2.c223a886.chunk.js.map",
+    "index.html": "/TECHCareers-React-Redux-Milestone/index.html",
+    "precache-manifest.ad9b7d49be35258ae2123ccd6d5d2810.js": "/TECHCareers-React-Redux-Milestone/precache-manifest.ad9b7d49be35258ae2123ccd6d5d2810.js",
+    "service-worker.js": "/TECHCareers-React-Redux-Milestone/service-worker.js",
+    "static/css/2.8d4cdce2.chunk.css.map": "/TECHCareers-React-Redux-Milestone/static/css/2.8d4cdce2.chunk.css.map",
+    "static/css/main.04ec16dd.chunk.css.map": "/TECHCareers-React-Redux-Milestone/static/css/main.04ec16dd.chunk.css.map",
+    "static/js/2.c223a886.chunk.js.LICENSE.txt": "/TECHCareers-React-Redux-Milestone/static/js/2.c223a886.chunk.js.LICENSE.txt",
+    "static/media/Banner.css": "/TECHCareers-React-Redux-Milestone/static/media/Banner.5f4ac945.jpg",
+    "static/media/EventImageFour.jpg": "/TECHCareers-React-Redux-Milestone/static/media/EventImageFour.142ce775.jpg",
+    "static/media/EventImageOne.jpg": "/TECHCareers-React-Redux-Milestone/static/media/EventImageOne.003f006c.jpg",
+    "static/media/EventImageThree.jpg": "/TECHCareers-React-Redux-Milestone/static/media/EventImageThree.527df372.jpg",
+    "static/media/EventImageTwo.jpg": "/TECHCareers-React-Redux-Milestone/static/media/EventImageTwo.7eb48186.jpg",
+    "static/media/Hamburger-menu.css": "/TECHCareers-React-Redux-Milestone/static/media/LandingPage.c9e0e02c.jpg",
+    "static/media/NewsImageFour.jpg": "/TECHCareers-React-Redux-Milestone/static/media/NewsImageFour.1f15ab77.jpg",
+    "static/media/NewsImageOne.jpg": "/TECHCareers-React-Redux-Milestone/static/media/NewsImageOne.d511dccf.jpg",
+    "static/media/NewsImageThree.jpg": "/TECHCareers-React-Redux-Milestone/static/media/NewsImageThree.bf17700a.jpg",
+    "static/media/NewsImageTwo.jpg": "/TECHCareers-React-Redux-Milestone/static/media/NewsImageTwo.44ab5ede.jpg",
+    "static/media/Knowus-page.css": "/TECHCareers-React-Redux-Milestone/static/media/vision.40c3be3c.jpg",
+    "static/media/logo-final.png": "/TECHCareers-React-Redux-Milestone/static/media/logo-final.2c3c5077.png",
+    "static/media/Thankyou-page.css": "/TECHCareers-React-Redux-Milestone/static/media/thankyou.a2d43d4e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2cf965b.js",
+    "static/css/2.8d4cdce2.chunk.css",
+    "static/js/2.c223a886.chunk.js",
+    "static/css/main.04ec16dd.chunk.css",
+    "static/js/main.79f613d2.chunk.js"
+  ]
+}
